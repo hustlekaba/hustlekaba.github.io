@@ -1,0 +1,82 @@
+/*.grid
+{
+    display:grid;
+    grid-template-columns: auto 300px 300px;
+    grid-template-rows: 510px 200px 300px 400px;
+    gap: 30px 50px;
+
+}
+
+.grid > div
+{
+    background-color: grey;
+    padding:20px;
+}
+
+.one
+{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}*/
+
+body{
+    margin:0;
+}
+
+.body
+{
+    background-color: rgb(224, 214, 202);
+   
+}
+
+.grid
+{
+    display:grid;
+    grid-template-columns: 1fr 260px;
+    grid-template-rows: auto;
+    gap:10px;
+   
+
+}
+
+.grid > div {
+    background-color: rgb(190, 205, 190);
+    padding: 20px;
+   
+}
+
+.grid2
+{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 300px;
+    gap:5px;
+}
+
+.grid2 > div {
+    background-color: rgb(244, 246, 232);
+    
+   
+}
+
+.twoDiv{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.aside{
+    background-color: azure;
+    padding: 10px;
+    margin-bottom:10px;
+}
+
+.header{
+    background-color: rgb(190, 205, 190);
+    padding: 20px;
+}
+
+.header > a {
+    padding: 10px;
+    background-color: rgb(244, 246, 232);
+
+}
